@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR.CargoShipping.WinForms", "PR.CargoShipping.WinForms\PR.CargoShipping.WinForms.csproj", "{8AD263BA-A4E8-4159-9510-78E01C7692DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR.CargoShipping.Plugins.Repository.ADONET", "PR.CargoShipping.Plugins.Repository.ADONET\PR.CargoShipping.Plugins.Repository.ADONET.csproj", "{302515DD-E4E3-4E79-ADF4-959796F9595D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR.CargoShipping.UseCases", "PR.CargoShipping.UseCases\PR.CargoShipping.UseCases.csproj", "{0A9B6843-322D-4EB8-ACD5-175F6D079FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR.CargoShipping.CoreBusiness", "PR.CargoShipping.CoreBusiness\PR.CargoShipping.CoreBusiness.csproj", "{FE6E2714-3F0D-4D9B-A7AB-42CEB903C806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD263BA-A4E8-4159-9510-78E01C7692DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD263BA-A4E8-4159-9510-78E01C7692DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD263BA-A4E8-4159-9510-78E01C7692DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD263BA-A4E8-4159-9510-78E01C7692DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302515DD-E4E3-4E79-ADF4-959796F9595D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302515DD-E4E3-4E79-ADF4-959796F9595D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302515DD-E4E3-4E79-ADF4-959796F9595D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302515DD-E4E3-4E79-ADF4-959796F9595D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9B6843-322D-4EB8-ACD5-175F6D079FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9B6843-322D-4EB8-ACD5-175F6D079FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9B6843-322D-4EB8-ACD5-175F6D079FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9B6843-322D-4EB8-ACD5-175F6D079FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6E2714-3F0D-4D9B-A7AB-42CEB903C806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6E2714-3F0D-4D9B-A7AB-42CEB903C806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6E2714-3F0D-4D9B-A7AB-42CEB903C806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6E2714-3F0D-4D9B-A7AB-42CEB903C806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{302515DD-E4E3-4E79-ADF4-959796F9595D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DD2306F-56AD-4DFB-AB4B-9A7B8D03797F}
+	EndGlobalSection
+EndGlobal
