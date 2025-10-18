@@ -98,7 +98,6 @@
             gvTrips.Name = "gvTrips";
             gvTrips.Size = new Size(776, 252);
             gvTrips.TabIndex = 7;
-            gvTrips.CellPainting += gvTrips_CellPainting;
             gvTrips.DataBindingComplete += gvTrips_DataBindingComplete;
             // 
             // frmTrips
